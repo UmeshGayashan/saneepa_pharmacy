@@ -1,11 +1,13 @@
 import React from 'react'
 import './Navbar.css'
 import {motion} from 'framer-motion'
+import Sidebar from '../sidebar/sidebar.jsx'
 
 function Navbar() {
   return (
     <div className='navbar'>
         {/* Sidebar */}
+        <Sidebar/>
         <div className="wrapper">
             <motion.span
                 initial={{opacity: 0, scale: 0}}
